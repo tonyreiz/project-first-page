@@ -1,0 +1,42 @@
+html{
+    background-color: black;
+    color: #00ff80;
+    text-shadow: 0 0 10px;
+    font-family: monospace;
+    line-height: 1.5rem;
+    padding: 3%;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f7ff17;
+}
+
+h1{
+    font-size:3rem ;
+    text-align: center;
+    text-shadow: 2px 2px white;
+}
+
+p{
+ font-size: 1.5rem;
+ text-indent: 5%;
+
+}
+
+p::first-letter{
+    color: #6c0cf3;
+    font-size: 1.9rem;
+    text-shadow: 2px 2px 4px rgb(24, 9, 236);
+}
+
+img{
+    width: 10rem;
+    display: block;
+    margin: auto;
+    border: 18px double #00ff80;
+}
